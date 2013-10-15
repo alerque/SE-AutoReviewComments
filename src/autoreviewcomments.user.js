@@ -491,6 +491,11 @@ with_jquery(function ($) {
         SetupRemoteBox(popup);
         SetupWelcomeBox(popup);
 
+        popup.find('.popup-select-and-submit').click(function () {
+          $(this).parent().siblings('input:radio').attr('checked', 'checked');
+          popup.find('.popup-submit').trigger('click');
+        });
+
         //on submit, convert html to markdown and copy to comment textarea
         popup.find('.popup-submit').click(function () {
           var selected = popup.find('input:radio:checked');
