@@ -250,7 +250,7 @@
     </condition>
   </target>
 
-  <!-- Sign the Chrome CRX package. -->
+  <!-- Generate a private key if none was found. -->
   <target name="build-chrome-key" unless="cert.chrome.found">
     <exec executable="openssl">
       <arg value="genrsa"/>
