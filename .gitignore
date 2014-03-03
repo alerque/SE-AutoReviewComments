@@ -5,6 +5,9 @@
 # Packaged extensions
 dist/*
 
+# For devel branch ONLY
+dist/*
+
 # Develeper scratch files
 *~
 .*.swp
