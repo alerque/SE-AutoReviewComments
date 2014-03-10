@@ -1,0 +1,12 @@
+callback(
+[
+{ "name": "[Q]Need more detail", "description": "We are going to need some more detail from you about your specific use case in order to make an informed recommendation rather than just listing possible software. Please take a look at <a href=\"http://meta.softwarerecs.stackexchange.com/q/336/$MYUSERID$\">What is required for a question to contain \"enough information\"?</a> for tips on what we are looking for, then [edit] your question and see if you can incorporate some of these improvements."},
+
+{ "name": "[Q]Requirements unclear (formatting)", "description": "Though your description holds several criteria required to recommend matching software, it suffers some formatting issues to make them clearly stand out. Please take a look at <a href=\"http://meta.softwarerecs.stackexchange.com/q/336/$MYUSERID$\">What is required for a question to contain \"enough information\"?</a> Then please [edit] your question and see if you can incorporate some of these improvements. This will significantly improve your chances of good answers!"},
+
+{ "name": "[A]Low quality answer", "description": "This post does not contain enough information to be considered a high quality answer. Please <a href=\"http://meta.softwarerecs.stackexchange.com/q/356/$MYUSERID$\">read our discussion on what makes an answer high quality</a> to see if you can incorporate some of these improvements into your answer, otherwise it might be removed."},
+
+{ "name": "[A]Low quality answer 2", "description": "Thank you for your answer. While your recommendation may be a good solution, we ask that answers include sufficient detail to show how it solves the requirements of the question, and describe how this is the best choice for the author specifically."},
+
+]
+)
