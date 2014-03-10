@@ -2,7 +2,7 @@
 // ==UserScript==
 // @name           AutoReviewComments
 // @namespace      benjol
-// @version        1.3.3.1
+// @version        1.3.3.2
 // @description    No more re-typing the same comments over and over!
 // @homepage       https://github.com/Benjol/SE-AutoReviewComments
 // @grant          none
@@ -56,7 +56,7 @@ with_jquery(function ($) {
   StackExchange.ready(function () {
     //// Self Updating Userscript, see https://gist.github.com/Benjol/874058
 // (the first line of this template _must_ be a comment!)
-var VERSION = '1.3.3.1';
+var VERSION = '1.3.3.2';
 var URL = "https://raw.github.com/alerque/SE-AutoReviewComments/auto_site_remotes/dist/autoreviewcomments.user.js";
 
 // This hack is necessary to bring people up from the last working auto-uptate gist
@@ -247,7 +247,7 @@ function CheckForNewVersion(popup) {
       }
       $.ajax({
         type: "GET",
-        url: 'http://api.stackexchange.com/2.2/users/' + userid + '?site=' + siteurl + '&jsonp=?',
+        url: location.protocol + '//api.stackexchange.com/2.2/users/' + userid + '?site=' + siteurl + '&jsonp=?',
         dataType: "jsonp",
         timeout: 2000,
         success: function (data) {
@@ -494,7 +494,7 @@ function CheckForNewVersion(popup) {
       var throbber = remote.find("#throbber1");
 
       popup.find('.popup-actions-remote').click(function () {
-        urlfield.val(GetStorage("RemoteUrl"));
+        urlfield.val(GetStorage("RemoteUrl") || "https://raw.github.com/alerque/SE-AutoReviewComments/auto_site_remotes/contrib/" + siteurl + ".jsonp");
         autofield.prop('checked', GetStorage("AutoRemote") == 'true');
         remote.show();
       });
