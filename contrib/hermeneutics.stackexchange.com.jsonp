@@ -1,0 +1,36 @@
+callback(
+[
+{ "name": "[Q]No sources for claims", "description": "Please give sources for who are making these claims. Saying, \"some say...\", \"most think...\" means nothing without any examples of anyone who actually think that."},
+
+{ "name": "[Q]General reference", "description": "<a href=\"http://meta.hermeneutics.stackexchange.com/q/635/423\">'General reference' questions that can be answered by doing a simple Google search are usually not good fits here.</a> Be sure to put forth some minimal research effort prior to asking a question here."},
+
+{ "name": "[Q]More than one question asked", "description": "The question-and-answer format of this site works best if you put each question in a separate question post. Please edit your post down to one question, and create new posts to ask any further questions. You'll get better answers that way."},
+
+{ "name": "[Q]OP having trouble writing good questions", "description": "I'm very grateful for your participation here, but I've noticed that you seem to be struggling with asking questions that are received well on this site. You may benefit from checking out <a href=\"http://meta.hermeneutics.stackexchange.com/q/867/423\">this helpful flowchart for asking questions</a>."},
+
+{ "name": "[Q]OP asks for application", "description": "We don't do 'Bible study' - we study the Bible. That means we stop short of application when answering questions about the Bible (which means we don't fully exegete the text in the religious sense of the practice). <a href=\"http://meta.hermeneutics.stackexchange.com/q/207/423\">Questions should be focused solely on the text</a> and not primarily on those things to which the text applies."},
+
+{ "name": "[Q]Original language assumption", "description": "If you don't know the language you are asking about, <a href=\"http://meta.hermeneutics.stackexchange.com/a/845/423\">please keep speculation to a minimum</a> (preferably none at all). We understand that sometimes you don't know what to ask if you don't know the language, but it is best to simply ask what the word/clause means or if it is translated correctly in a specified translation."},
+
+{ "name": "Use of Strongs Concordance as lexicon", "description": "Claiming the meaning of a specific word in a given context on the basis of the <em>Strong's Concordance</em> is not a reliable claim. <a href=\"http://meta.hermeneutics.stackexchange.com/q/923/423\">Please see this post which explains how to effectively (and properly) use <em>Strong's Concordance</em>.</a>"},
+
+{ "name": "Etymological fallacy", "description": "<a href=\"http://meta.hermeneutics.stackexchange.com/q/923/423\">Etymology and the later meaning of a word are often non-related concepts</a>. For instance, no sensible person would understand 'butterfly' to refer to an airborne dairy product. Etymology is not the primary tool for understanding the meaning of a word in a specific context, and it is often meaningless when making such a determination."},
+
+{ "name": "Outdated lexicon", "description": "Virtually all Greek-English lexical resources written prior to the 20th century are now obsolete and not considered to be reliable sources for the meaning of Greek words. <a href=\"http://meta.hermeneutics.stackexchange.com/a/642/423\">Please use a more updated lexicon, here is a list.</a>"},
+
+{ "name": "OP providing facts in a comment", "description": "The best way to add additional information to your post is by editing it, with the <strong>edit</strong> button. It is more visible that way, and comments are mainly for secondary, temporary purposes. Comments are removed under a variety of circumstances. Anything important to your post should be in the post itself."},
+
+{ "name": "Does not show work", "description": "This doesn't <a href=\"http://meta.hermeneutics.stackexchange.com/a/846/423\">show its work</a>, which is a <a href=\"http://meta.hermeneutics.stackexchange.com/a/777/423\"><em>requirement</em></a> on this site. Don't just tell us <em>what</em> you know, tell us <em>how</em> you know it."},
+
+{ "name": "Old post does not show work", "description": "When this was originally written it may have been OK, but we've since tightened up our requirements for <a href=\"http://meta.hermeneutics.stackexchange.com/a/846/423\">showing your work</a> (don't just tell us <em>what</em> you know, tell us <em>how</em> you know it). I'd really love to see you edit this to give some sources and develop/explain your ideas more fully, as they are much appreciated. But for now I'm going to close this. If you do edit it, please flag it with a custom message requesting it be reopened on the basis that you have edited to show your work. Your contributions here <em>are</em> appreciated."},
+
+{ "name": "Text citation issue", "description": "Be sure to <a href=\"http://meta.hermeneutics.stackexchange.com/a/810/423\">properly cite the text</a> you're asking about. The chapter and verse numbers do not always line up between the Hebrew, Greek, and English texts."},
+
+{ "name": "First personal plural language", "description": "<a href=\"http://meta.hermeneutics.stackexchange.com/a/912/423\">Using first person plural language when referencing the audiences of ancient texts</a> moves from <em>describing</em> the text itself to <em>prescribing</em> norms that are expressed as binding on readers and therefore <em>imposes</em> this application upon the reader. Please keep in mind that <a href=\"http://meta.hermeneutics.stackexchange.com/q/441/423\">not all of your readers are Christians</a>."},
+
+{ "name": "OP assumes this is a Christian site", "description": "Please keep in mind that <a href=\"http://meta.hermeneutics.stackexchange.com/q/441/423\">this is not a Christian site</a>. Be sure to <a href=\"http://meta.hermeneutics.stackexchange.com/a/803/423\">check out what makes us different from other sites that study the Bible</a>."},
+
+{ "name": "OP has an axe to grind", "description": "If you are here to convince someone of your point of view, <a href=\"http://meta.hermeneutics.stackexchange.com/a/803/423\">you are probably in the wrong place</a>. If you're here to answer questions while contributing your perspective in a diverse, pluralistic setting, welcome aboard! Stack Exchange sites are based on a question-and-answer model. If your goal in writing an answer or a question is to \"make a point,\" then sadly, you've missed the point of this site!"},
+
+]
+)
