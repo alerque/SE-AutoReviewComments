@@ -399,7 +399,7 @@ with_jquery(function ($) {
       var throbber = remote.find("#throbber1");
 
       popup.find('.popup-actions-remote').click(function () {
-        urlfield.val(GetStorage("RemoteUrl"));
+        urlfield.val(GetStorage("RemoteUrl") || "@ant-contrib-base@/" + siteurl + ".jsonp");
         autofield.prop('checked', GetStorage("AutoRemote") == 'true');
         remote.show();
       });
