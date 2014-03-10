@@ -1,0 +1,21 @@
+callback(
+[
+
+{ "name": "[Q]Development question", "description": "This site is for users of Android, which means that questions about *writing* Android apps are off-topic here. (See the [help/on-topic].) Programming questions are on-topic on our sister site [Stack Overflow](http://stackoverflow.com/)." },
+{ "name": "[Q]More than one question asked", "description": "The question-and-answer format of this site works best if you put each question in a separate question post. Please [edit] your post down to one question, and create new posts to ask any further questions. You'll get better answers that way."},
+{ "name": "[Q]App recommendation", "description": "If you want to find an app, [Google Play has a search feature](https://play.google.com/store/apps). For this reason, \"What app should I use?\" questions are off-topic here unless you have a specific problem you can't search for." },
+{ "name": "[A]OP adding a new question as an answer", "description": "Remember this is a Q&A site - so keep on editing your question with new information - this section is for actual answers. If you have another question, please ask it by clicking the **Ask Question** button."},  
+
+{ "name": "[Q]OP providing facts in a comment", "description": "The best way to add additional information to your question is by [edit]ing it. That makes it easier for new visitors to see all the relevant details."},  
+
+{ "name": "[A]OP using an answer for further information", "description": "This is a question-and-answer site, not a forum. Please use the **Post answer** button only if you have a solution to the problem, so that other users can see your question is not yet answered. You can click **edit** on the question to add more information to it."},
+
+{ "name": "[A]Answer that is a question", "description": "If you have another question, please ask it by clicking the **Ask Question** button."},
+{ "name": "[A]Me too!", "description": "Please only add an *answer* if you have a solution to the problem. If you post an answer, other visitors will think the problem has been solved, so a real answer is less likely to be posted. If you think the question is useful, and you have enough reputation on the site, upvote it so that more people will see it (and to thank the questioner)."},
+{ "name": "[A]OP commenting to say thanks", "description": "If you're satisfied that this is the right answer, accept it by clicking the green check mark on the left. You get some rep for that, and other visitors can see that this question has been answered."},
+{ "name": "[A]Nothing but a URL (and isn't spam)", "description": "Whilst this may theoretically answer the question, [it would be preferable](http://meta.stackoverflow.com/q/8259) to include the essential parts of the answer here, and provide the link for reference."},
+{ "name": "[A]Comments as an answer (new users)", "description": "Please don't add comments as answers. Invest some time in the site and you will gain sufficient [privileges](http://$SITENAME$/privileges) to upvote answers you like, or to add actual comments when seeking clarification of any issues."},
+{ "name": "[A]Comments as an answer (experienced users)", "description": "Please don't add comments as answers. Use actual comments when seeking clarification of any issues."}
+]
+)
+
