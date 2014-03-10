@@ -36,8 +36,10 @@
   <property name="src.chrome" value="${src}/.chrome"/>
   <!-- Location for Firefox-specific source files. -->
   <property name="src.firefox" value="${src}/.firefox"/>
-  <!-- The location that contains our templates. -->
+  <!-- The location that contains our html templates. -->
   <property name="src.templates" value="${src}/.templates"/>
+  <!-- The location that contains our json data . -->
+  <property name="src.data" value="${src}/.data"/>
   <!-- Location for JS modules that can be merged into the main source file. -->
   <property name="src.modules" value="${src}/.modules"/>
 
@@ -114,7 +116,7 @@
   </target>
 
   <target name="tokenreplace" depends="sites, sites-userscript, sites-string-list, sites-chrome, compress-templates">
-    <!-- Replace templates. -->
+    <!-- Replace compressed HTML templates. -->
     <loadfile srcfile="${buildDir}/.templates/message.html" property="ant-templates-message"/>
     <replace dir="${buildDir}" token="@ant-templates-message@" value="${ant-templates-message}"/>
     <loadfile srcfile="${buildDir}/.templates/option.html" property="ant-templates-option"/>
@@ -122,9 +124,14 @@
     <loadfile srcfile="${buildDir}/.templates/popup.html" property="ant-templates-popup"/>
     <replace dir="${buildDir}" token="@ant-templates-popup@" value="${ant-templates-popup}"/>
 
-    <!-- Clean up the temporary directory where we stored the HTML-compressed templates. -->
+    <!-- Replace JSON data templates. -->
+    <loadfile srcfile="${src.data}/default-comments.json" property="ant-default-comments"/>
+    <replace dir="${buildDir}" token="@ant-default-comments@" value="${ant-default-comments}"/>
+
+    <!-- Clean up the temporary directory where we stored the compressed templates. -->
     <delete dir="${buildDir}/.templates"/>
     <delete dir="${buildDir}/.modules"/>
+    <delete dir="${buildDir}/.data"/>
 
     <!-- General token replacing in the rest of the code. -->
     <replace dir="${buildDir}" replacefilterfile="${build.prop}" encoding="${encoding}"/>
